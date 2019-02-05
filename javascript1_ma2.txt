@@ -1,0 +1,18 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+    kort forklart det er en unnamed funksjon som er assignet til et element for.eks. et objekt.
+2. What is the constructor?
+    constructor er en funksjon inne i class objekter som gjør det mulig å lage objekter via classes.
+3. What does the return statement do?
+    Return sender tilbake det du vil den skal returne og hopper så ut av scopet den er inne i.
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+    dette vil returnere "inside my function" siden du kaller på funksjonen og det er en return statement som er over console.log så den ser return og går ut av funksjonen.
+
+5. Briefly describe scope in JavaScript.
+    dette vil si hvor en variabel / funksjon vil kunne bli kaldt fra si du lager en variabel inni en funksjon da vil den variabelen kun eksitere og kunne brukes inni funksjonen sitt scope.
