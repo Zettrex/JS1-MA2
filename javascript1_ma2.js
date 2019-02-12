@@ -45,7 +45,7 @@ myAwsomeArraySwaps = ["koenigsegg", "pagani", "bugatti", "lada", "audi", "ferrar
 function changeArray() {
     console.log(myAwsomeArray);
     for (x in myAwsomeArray){
-       myAwsomeArray[x] = myAwsomeArraySwaps[Math.floor(Math.random() * myAwsomeArray.length)];
+       myAwsomeArray[x] = myAwsomeArraySwaps[Math.floor(Math.random() * myAwsomeArray.length -1)];
     }
     console.log(myAwsomeArray)
 }
